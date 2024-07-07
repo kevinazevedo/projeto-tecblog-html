@@ -5,7 +5,8 @@
 }
 
 body {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
     font-family: "Consolas", Arial, Helvetica, sans-serif;
     background: #e6e6e6;
 }
@@ -23,6 +24,26 @@ body {
 
 #area-menu {
     padding: 10px;
+}
+
+/* Formatação do menu */
+a  {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    padding: 8px;
+}
+
+a:visited {
+    color: white;
+    padding: 8px;
+}
+
+a:hover {
+    color: #f7b600;
+    background: white;
 }
 
 /* Formatações em geral */
