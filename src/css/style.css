@@ -33,10 +33,6 @@ body {
     padding: 15px;
 }
 
-#area-lateral {
-    background: orange;
-}
-
 #area-postagens {
     width: 660px;
     float: left;
@@ -53,11 +49,29 @@ body {
     background: white;
 }
 
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.categoria-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
 #rodape {
     clear: both;
     text-align: center;
+    font-weight: bold;
     padding: 15px;
-    background: #ccc;
 }
 
 /* Formatação do menu */
@@ -93,6 +107,12 @@ a:hover {
     text-decoration: none;
 }
 
+.categoria-lateral a:hover {
+    color: #ff2929;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 /* Formatações em geral */
 h1 {
     color: #4e4e4e;
@@ -101,6 +121,12 @@ h1 {
 
 h2 {
     color: #6534eb; 
+}
+
+h4 {
+    color: #f7d61d; 
+    background: #000000;
+    padding: 5px;
 }
 
 .branco {
