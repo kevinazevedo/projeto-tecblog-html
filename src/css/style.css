@@ -6,7 +6,6 @@
 
 body {
     font-size: 1.2em;
-    font-weight: bold;
     font-family: "Consolas", Arial, Helvetica, sans-serif;
     background: #e6e6e6;
 }
@@ -19,10 +18,12 @@ body {
 }
 
 #area-logo {
+    font-weight: bold;
     padding: 10px;
 }
 
 #area-menu {
+    font-weight: bold;
     padding: 10px;
 }
 
@@ -43,6 +44,12 @@ body {
 #area-lateral {
     width: 240px;
     float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
 }
 
 #rodape {
